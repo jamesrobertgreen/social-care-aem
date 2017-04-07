@@ -2,15 +2,20 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2017-04-07T18:04:35.699+01:00"
+        cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="English"
-        pageTitle="New Project"
-        sling:resourceType="SocialCare/components/structure/page">
+        sling:resourceType="SocialCare/components/structure/page"
+        pageTitle="New Project">
         <logo
             jcr:primaryType="nt:unstructured"
             sling:resourceType="SocialCare/components/structure/logo"/>
         <title
+            jcr:lastModified="{Date}2017-04-07T18:04:35.687+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
+            jcr:title="English1"
             sling:resourceType="SocialCare/components/content/title"/>
         <topnav
             jcr:primaryType="nt:unstructured"
@@ -18,11 +23,16 @@
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/parsys">
+            <title_0
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Service Component"
+                sling:resourceType="SocialCare/components/content/title"
+                type="h2"/>
             <title_1
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Lorem ipsum"
-                type="h2"
-                sling:resourceType="SocialCare/components/content/title"/>
+                sling:resourceType="SocialCare/components/content/title"
+                type="h2"/>
             <text
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SocialCare/components/content/text"
