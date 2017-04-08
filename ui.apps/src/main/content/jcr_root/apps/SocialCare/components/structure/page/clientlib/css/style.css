@@ -27,7 +27,7 @@
     background-color:#DEDEDE;
 }
 .page__header{
-    background:#4d4d4d;
+    background:#4682B4;
 }
 
 .page__logo {
@@ -38,6 +38,22 @@
     position: absolute;
     top: 20px;
     right: 1em;
+}
+.page__footer{
+    background: #44494;
+    height: 70px;
+}
+.page__ensemble-logo {
+    display: inline-block;
+ }
+.page__ensemble-logo img{
+    height:20px;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
 }
 
 .page__title h1 {

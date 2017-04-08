@@ -27,5 +27,8 @@
                 formType="adaptiveForm"
                 thankyouConfig="message"/>
         </par>
+        <ensemble-logo
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SocialCare/components/structure/logo"/>
     </jcr:content>
 </jcr:root>
