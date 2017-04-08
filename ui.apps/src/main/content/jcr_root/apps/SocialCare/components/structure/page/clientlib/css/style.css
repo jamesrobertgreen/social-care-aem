@@ -24,7 +24,7 @@
     -moz-box-shadow: 0 0 9px 1px -moz-rgba(0,0,0,.2);
     -webkit-box-shadow: 0 0 9px 1px rgba(0,0,0,.2);
     zoom: 100%;
-    background-color:black;
+    background-color:#DEDEDE;
 }
 
 .page__logo {
@@ -38,7 +38,7 @@
 }
 
 .page__title h1 {
-    color: #025c1f;
+    color: black;
     text-transform: uppercase;
 }
 
