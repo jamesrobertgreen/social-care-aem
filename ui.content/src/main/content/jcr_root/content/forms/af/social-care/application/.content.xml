@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2017-04-10T16:23:30.250+01:00"
+        cq:lastModified="{Date}2017-04-10T16:40:30.815+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templates/blankTemplate2"
         jcr:language="en"
@@ -523,6 +523,193 @@
                             </panel_1266729512>
                         </items>
                     </panel_1987989962>
+                    <panel
+                        jcr:created="{Date}2017-04-10T16:25:38.758+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-04-10T16:26:00.740+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Applicant Details"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="applicantDetails"
+                        textIsRich="true">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2017-04-10T16:26:33.710+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:27:23.287+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Title"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                maxChars="0"
+                                name="title"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1904725912
+                                jcr:created="{Date}2017-04-10T16:28:12.132+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:28:41.335+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Forename(s)"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="foreNames"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_709680033
+                                jcr:created="{Date}2017-04-10T16:29:41.571+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:30:02.208+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Surname"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="surname"
+                                textIsRich="[true,true]"/>
+                            <guidedateinput
+                                jcr:created="{Date}2017-04-10T16:30:22.300+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:30:39.248+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Date of Birth"
+                                sling:resourceType="fd/af/components/guidedateinput"
+                                dateDisplayFormat="date{M/D/YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                name="dateOfBirth"
+                                placeholderDay="DD"
+                                placeholderMonth="MM"
+                                placeholderYear="YYYY"
+                                textIsRich="[true,true]"
+                                titleDay="Day"
+                                titleMonth="Month"
+                                titleYear="Year"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2017-04-10T16:31:14.675+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:31:40.909+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Gender"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                _value="0"
+                                guideNodeClass="guideRadioButton"
+                                name="gender"
+                                options="[0=Male,1=Female]"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1999146998
+                                jcr:created="{Date}2017-04-10T16:31:56.195+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:32:22.727+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Current Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="currentAddress"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1429341599
+                                jcr:created="{Date}2017-04-10T16:32:35.068+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:40:30.810+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Contact Phone Number "
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayIsSameAsValidate="true"
+                                displayPatternType="text{'('999')' 999-9999}"
+                                displayPictureClause="text{'('999')' 999-9999}"
+                                guideNodeClass="guideTextBox"
+                                name="phoneNumber"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1787031422
+                                jcr:created="{Date}2017-04-10T16:33:24.252+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:40:21.604+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Email Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayIsSameAsValidate="true"
+                                displayPatternType="text{OOOOOOOO'@example.com'}"
+                                displayPictureClause="text{OOOOOOOO'@example.com'}"
+                                guideNodeClass="guideTextBox"
+                                maxChars="0"
+                                name="emailAddress"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1161470700
+                                jcr:created="{Date}2017-04-10T16:34:12.956+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:34:43.045+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="National Insurance Number"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="nationalInsuranceNumber"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_680966795
+                                jcr:created="{Date}2017-04-10T16:34:55.228+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:38:17.540+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="NHS Number"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="nhsNumber"
+                                placeholderText="10 digits long, not the same as the hospital number"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1514329177
+                                jcr:created="{Date}2017-04-10T16:38:23.325+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:38:55.070+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="GP Practice Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="gpPracticeName"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_809849731
+                                jcr:created="{Date}2017-04-10T16:39:00.412+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:39:22.078+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="GP Practice Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="gpPracticeAddress"
+                                textIsRich="[true,true]"/>
+                            <guidetextbox_1926685167
+                                jcr:created="{Date}2017-04-10T16:39:31.403+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:39:59.369+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="GP Practice Contact Phone Number "
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayIsSameAsValidate="true"
+                                displayPatternType="text{'('999')' 999-9999}"
+                                displayPictureClause="text{'('999')' 999-9999}"
+                                guideNodeClass="guideTextBox"
+                                maxChars="0"
+                                name="gpPhoneNumber"
+                                textIsRich="[true,true]"/>
+                        </items>
+                    </panel>
                 </items>
             </rootPanel>
             <autoSaveInfo
