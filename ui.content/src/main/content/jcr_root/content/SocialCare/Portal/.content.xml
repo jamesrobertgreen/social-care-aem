@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-04-07T18:10:12.093+01:00"
+        cq:lastModified="{Date}2017-04-10T09:21:26.668+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/SocialCare/templates/page-home"
         jcr:primaryType="cq:PageContent"
@@ -12,7 +12,10 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="SocialCare/components/structure/logo"/>
         <title
+            jcr:lastModified="{Date}2017-04-10T08:38:10.448+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
+            jcr:title="Social Care Application"
             sling:resourceType="SocialCare/components/content/title"/>
         <par
             jcr:primaryType="nt:unstructured"
@@ -20,15 +23,19 @@
             <aemform_1896543267
                 jcr:created="{Date}2017-04-07T18:10:01.426+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-04-07T18:10:01.426+01:00"
+                jcr:lastModified="{Date}2017-04-10T09:21:26.664+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fd/af/components/aemform"
+                formRef="/content/dam/formsanddocuments/social-care/portal"
                 formType="adaptiveForm"
-                thankyouConfig="message"/>
+                submitType="inline"
+                textIsRich="true"
+                thankyouConfig="message"
+                useiframe="true"/>
         </par>
         <ensemble-logo
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="SocialCare/components/structure/logo"/>
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="SocialCare/components/structure/logo"/>
     </jcr:content>
 </jcr:root>

@@ -28,12 +28,16 @@
 }
 .page__header{
     background:#4d4d4d;
+    margin-left: -1em;
+    margin-right: -1em;
 }
 
 .page__logo {
     display: inline-block;
 }
-
+.submit-button{
+color:red;
+}
 .page__topnav {
     position: absolute;
     top: 20px;
@@ -58,7 +62,6 @@
 
 .page__title h1 {
     color: black;
-    text-transform: uppercase;
 }
 
 /* Scale down too wide images from the parsys */
