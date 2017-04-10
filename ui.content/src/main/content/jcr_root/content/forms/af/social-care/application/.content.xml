@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2017-04-10T16:58:41.857+01:00"
+        cq:lastModified="{Date}2017-04-10T21:38:11.448+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templates/blankTemplate2"
         jcr:language="en"
@@ -43,683 +43,80 @@
                 <items
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                    <panel_1987989962
-                        jcr:created="{Date}2017-04-10T16:11:09.582+01:00"
+                    <panel_923271960
+                        jcr:created="{Date}2017-04-10T19:11:55.297+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-04-10T16:23:30.245+01:00"
+                        jcr:lastModified="{Date}2017-04-10T21:31:22.881+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Application"
+                        jcr:title="Social Care Application"
                         sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}true"
                         guideNodeClass="guidePanel"
-                        name="mainPanel"
+                        name="applicationMainPanel"
                         textIsRich="true">
                         <layout
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="fd/af/layouts/panel/accordion"
+                            sling:resourceType="fd/af/layouts/panel/wizard"
                             columns="1"
                             enableLayoutOptimization="{Boolean}true"
+                            guideNavigatorTab="wizard-tab"
                             nonNavigable="false"
                             toolbarPosition="Bottom"/>
                         <items jcr:primaryType="nt:unstructured">
-                            <panel
-                                jcr:created="{Date}2017-04-10T15:56:56.613+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T15:58:21.946+01:00"
-                                jcr:lastModifiedBy="admin"
+                            <peliminaryQuestions
+                                jcr:description=""
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Your Home &amp; Living Situation"
+                                jcr:title="Peliminary Questions"
                                 sling:resourceType="fd/af/components/panel"
                                 guideNodeClass="guidePanel"
-                                name="livingSituation"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <guideswitch
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to maintain and clean your home independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="cleanHome"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch>
+                                name="peliminaryQuestions">
+                                <items jcr:primaryType="nt:unstructured">
                                     <guideswitch_copy
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                        jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                        jcr:lastModified="{Date}2017-04-10T16:48:46.692+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to manage your day to day paperwork independently?"
+                                        jcr:title="Do you currently receive informal care?"
                                         sling:resourceType="fd/af/components/guideswitch"
                                         _value="0"
                                         guideNodeClass="guideSwitch"
-                                        name="dailyPaperwork"
+                                        name="receiveInformalCare"
                                         options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy>
+                                        textIsRich="[true,true]"/>
+                                    <guideswitch
+                                        jcr:created="{Date}2017-04-10T16:56:26.556+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:57:02.520+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Are you moving from another Local Authority area?"
+                                        sling:resourceType="fd/af/components/guideswitch"
+                                        guideNodeClass="guideSwitch"
+                                        name="movingLocalAuthorities"
+                                        options="[1=On,0=Off]"
+                                        textIsRich="[true,true]"/>
+                                    <guideswitch_11751090
+                                        jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:43:57.124+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Are you currently staying in a hospital or other NHS facility?"
+                                        sling:resourceType="fd/af/components/guideswitch"
+                                        guideNodeClass="guideSwitch"
+                                        name="stayingInNHSFacility"
+                                        options="[1=Yes,0=No]"
+                                        textIsRich="[true,true]"/>
                                 </items>
-                            </panel>
-                            <panel_176461059
-                                jcr:created="{Date}2017-04-10T15:59:14.541+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:00:11.529+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Eating Healthily and Staying Safe"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="eatingHealthily"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
                                 <layout
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
                                     nonNavigable="true"
                                     toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideswitch_copy_112
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to shop for food/essentials independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="shopIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_112>
-                                    <guideswitch_copy_864
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to prepare meals, drinks and snacks independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="prepareMeals"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864>
-                                    <guideswitch_copy_864_1080506259
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to eat and drink independently and without supervision?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="eatDrinkIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_1080506259>
-                                </items>
-                            </panel_176461059>
-                            <panel_794473001
-                                jcr:created="{Date}2017-04-10T16:00:59.341+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:01:17.656+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Personal Care"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="personalCare"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideswitch_copy_864
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to use the toilet independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="toiletIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864>
-                                    <guideswitch_copy_864_110386209
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to wash independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="washIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_110386209>
-                                    <guideswitch_copy_864_1395448286
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to get dressed and undressed independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="dressIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_1395448286>
-                                </items>
-                            </panel_794473001>
-                            <panel_46892915
-                                jcr:created="{Date}2017-04-10T16:02:36.444+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:03:05.368+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Social Relationships and Activities"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="socialRelationships"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideswitch_copy_864
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to develop and maintain relationships with family/friends/others?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="familyFriends"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864>
-                                    <guideswitch_copy_864_1527904240
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to go out into the community independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="communityIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_1527904240>
-                                    <guideswitch_copy_864_300486265
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you able to socialise independently?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="socialiseIndependent"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_300486265>
-                                </items>
-                            </panel_46892915>
-                            <panel_153572762
-                                jcr:created="{Date}2017-04-10T16:04:09.972+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:04:39.355+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Work, Training, Education and Volunteering"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="workTraining"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideradiobutton_cop
-                                        jcr:created="{Date}2017-04-10T15:30:21.213+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Can you access and undertake work/training/education/volunteering independently?"
-                                        sling:resourceType="fd/af/components/guideradiobutton"
-                                        _value="2"
-                                        guideNodeClass="guideRadioButton"
-                                        name="workIndependent"
-                                        options="[0=Yes,1=No,2=Not Applicable]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideradiobutton_cop>
-                                </items>
-                            </panel_153572762>
-                            <panel_1028840837
-                                jcr:created="{Date}2017-04-10T16:05:04.067+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:05:22.418+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Caring for Others"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="caringForOthers"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideradiobutton_cop
-                                        jcr:created="{Date}2017-04-10T15:30:21.213+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Do you have any children that are dependant on you?"
-                                        sling:resourceType="fd/af/components/guideradiobutton"
-                                        _value="2"
-                                        guideNodeClass="guideRadioButton"
-                                        name="childrenDependant"
-                                        options="[0=Yes,1=No,2=Not Applicable]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideradiobutton_cop>
-                                </items>
-                            </panel_1028840837>
-                            <panel_620839642
-                                jcr:created="{Date}2017-04-10T16:06:05.445+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:06:23.410+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Staying Safe"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="stayingSafe"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideswitch_copy_864
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you safe to be at home on your own?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="homeAlone"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864>
-                                    <guideswitch_copy_864_1558573105
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Are you currently at risk of falls?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="fallRisk"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864_1558573105>
-                                </items>
-                            </panel_620839642>
-                            <panel_1266729512
-                                jcr:created="{Date}2017-04-10T16:06:49.716+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:07:18.881+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Mental Health and Well Being"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="mentalWellBeing"
-                                summaryExpVisible="yes"
-                                textIsRich="true">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                    columns="1"
-                                    nonNavigable="true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guideswitch_copy_864
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Do you or have you ever suffered from a serious mental health issue?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="mentalHealthIssue"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_864>
-                                    <guideswitch_copy_865
-                                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Have you had contact with mental health services in the past year?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="healthServicesPastYear"
-                                        options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
-                                    </guideswitch_copy_865>
-                                </items>
-                            </panel_1266729512>
-                        </items>
-                    </panel_1987989962>
-                    <panel
-                        jcr:created="{Date}2017-04-10T16:25:38.758+01:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-04-10T16:26:00.740+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Applicant Details"
-                        sling:resourceType="fd/af/components/panel"
-                        guideNodeClass="guidePanel"
-                        name="applicantDetails"
-                        textIsRich="true">
-                        <layout
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="fd/af/layouts/gridFluidLayout"
-                            columns="1"
-                            nonNavigable="true"
-                            toolbarPosition="Bottom"/>
-                        <items
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="fd/af/layouts/gridFluidLayout">
-                            <guidetextbox
-                                jcr:created="{Date}2017-04-10T16:26:33.710+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:27:23.287+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Title"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                maxChars="0"
-                                name="title"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1904725912
-                                jcr:created="{Date}2017-04-10T16:28:12.132+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:28:41.335+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Forename(s)"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="foreNames"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_709680033
-                                jcr:created="{Date}2017-04-10T16:29:41.571+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:30:02.208+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Surname"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="surname"
-                                textIsRich="[true,true]"/>
-                            <guidedateinput
-                                jcr:created="{Date}2017-04-10T16:30:22.300+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:30:39.248+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Date of Birth"
-                                sling:resourceType="fd/af/components/guidedateinput"
-                                dateDisplayFormat="date{M/D/YYYY}"
-                                guideNodeClass="guideDatePicker"
-                                name="dateOfBirth"
-                                placeholderDay="DD"
-                                placeholderMonth="MM"
-                                placeholderYear="YYYY"
-                                textIsRich="[true,true]"
-                                titleDay="Day"
-                                titleMonth="Month"
-                                titleYear="Year"/>
-                            <guideradiobutton
-                                jcr:created="{Date}2017-04-10T16:31:14.675+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:31:40.909+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Gender"
-                                sling:resourceType="fd/af/components/guideradiobutton"
-                                _value="0"
-                                guideNodeClass="guideRadioButton"
-                                name="gender"
-                                options="[0=Male,1=Female]"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1999146998
-                                jcr:created="{Date}2017-04-10T16:31:56.195+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:32:22.727+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Current Address"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="currentAddress"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1429341599
-                                jcr:created="{Date}2017-04-10T16:32:35.068+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:40:30.810+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Contact Phone Number "
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                displayIsSameAsValidate="true"
-                                displayPatternType="text{'('999')' 999-9999}"
-                                displayPictureClause="text{'('999')' 999-9999}"
-                                guideNodeClass="guideTextBox"
-                                name="phoneNumber"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1787031422
-                                jcr:created="{Date}2017-04-10T16:33:24.252+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:40:21.604+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Email Address"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                displayIsSameAsValidate="true"
-                                displayPatternType="text{OOOOOOOO'@example.com'}"
-                                displayPictureClause="text{OOOOOOOO'@example.com'}"
-                                guideNodeClass="guideTextBox"
-                                maxChars="0"
-                                name="emailAddress"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1161470700
-                                jcr:created="{Date}2017-04-10T16:34:12.956+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:34:43.045+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="National Insurance Number"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="nationalInsuranceNumber"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_680966795
-                                jcr:created="{Date}2017-04-10T16:34:55.228+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:38:17.540+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="NHS Number"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="nhsNumber"
-                                placeholderText="10 digits long, not the same as the hospital number"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1514329177
-                                jcr:created="{Date}2017-04-10T16:38:23.325+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:38:55.070+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="GP Practice Name"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="gpPracticeName"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_809849731
-                                jcr:created="{Date}2017-04-10T16:39:00.412+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:39:22.078+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="GP Practice Address"
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                guideNodeClass="guideTextBox"
-                                name="gpPracticeAddress"
-                                textIsRich="[true,true]"/>
-                            <guidetextbox_1926685167
-                                jcr:created="{Date}2017-04-10T16:39:31.403+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:39:59.369+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="GP Practice Contact Phone Number "
-                                sling:resourceType="fd/af/components/guidetextbox"
-                                displayIsSameAsValidate="true"
-                                displayPatternType="text{'('999')' 999-9999}"
-                                displayPictureClause="text{'('999')' 999-9999}"
-                                guideNodeClass="guideTextBox"
-                                maxChars="0"
-                                name="gpPhoneNumber"
-                                textIsRich="[true,true]"/>
-                            <guideswitch
-                                jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2017-04-10T16:43:57.124+01:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Are you currently staying in a hospital or other NHS facility?"
-                                sling:resourceType="fd/af/components/guideswitch"
-                                guideNodeClass="guideSwitch"
-                                name="stayingInNHSFacility"
-                                options="[1=Yes,0=No]"
-                                textIsRich="[true,true]"/>
+                            </peliminaryQuestions>
                             <panel
                                 jcr:created="{Date}2017-04-10T16:44:12.220+01:00"
                                 jcr:createdBy="admin"
@@ -763,75 +160,190 @@
                                         name="nhsFacilityLocation"
                                         placeholderText="e.g. Kings Cross"
                                         textIsRich="[true,true]"/>
-                                    <guideswitch_copy
-                                        jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
+                                </items>
+                            </panel>
+                            <panel123
+                                jcr:created="{Date}2017-04-10T16:25:38.758+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T20:49:55.852+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Personal Details"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="personalDetails"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextbox
+                                        jcr:created="{Date}2017-04-10T16:26:33.710+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:48:46.692+01:00"
+                                        jcr:lastModified="{Date}2017-04-10T20:21:52.970+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        jcr:title="Do you currently receive informal care?"
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="receiveInformalCare"
-                                        options="[1=Yes,0=No]"
+                                        jcr:title="Title"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        maxChars="0"
+                                        name="applicantTitle"
                                         textIsRich="[true,true]"/>
-                                    <panel
-                                        jcr:created="{Date}2017-04-10T16:49:48.341+01:00"
+                                    <guidetextbox_1904725
+                                        jcr:created="{Date}2017-04-10T16:28:12.132+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:50:19.682+01:00"
+                                        jcr:lastModified="{Date}2017-04-10T16:28:41.335+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        jcr:title="Carer Details"
-                                        sling:resourceType="fd/af/components/panel"
-                                        guideNodeClass="guidePanel"
-                                        name="carerDetails"
-                                        textIsRich="true">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                            columns="1"
-                                            nonNavigable="true"
-                                            toolbarPosition="Bottom"/>
-                                        <items
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                            <guidetextbox_copy
-                                                jcr:created="{Date}2017-04-10T16:50:32.476+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:52:42.933+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's First Name"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="carerFirstName"
-                                                textIsRich="[true,true]"/>
-                                            <guidetextbox
-                                                jcr:created="{Date}2017-04-10T16:50:32.476+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:52:49.061+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's Last Name"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="carerLastName"
-                                                textIsRich="[true,true]"/>
-                                            <guidetextbox_1399494382
-                                                jcr:created="{Date}2017-04-10T16:51:36.027+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:51:51.215+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's Address"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="carerAddress"
-                                                textIsRich="[true,true]"/>
-                                        </items>
-                                    </panel>
-                                    <guideswitch
+                                        jcr:title="Forename(s)"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="foreNames"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_709680033
+                                        jcr:created="{Date}2017-04-10T16:29:41.571+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:30:02.208+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Surname"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="surname"
+                                        textIsRich="[true,true]"/>
+                                    <guidedateinput
+                                        jcr:created="{Date}2017-04-10T16:30:22.300+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:30:39.248+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Date of Birth"
+                                        sling:resourceType="fd/af/components/guidedateinput"
+                                        dateDisplayFormat="date{M/D/YYYY}"
+                                        guideNodeClass="guideDatePicker"
+                                        name="dateOfBirth"
+                                        placeholderDay="DD"
+                                        placeholderMonth="MM"
+                                        placeholderYear="YYYY"
+                                        textIsRich="[true,true]"
+                                        titleDay="Day"
+                                        titleMonth="Month"
+                                        titleYear="Year"/>
+                                    <guideradiobutton
+                                        jcr:created="{Date}2017-04-10T16:31:14.675+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:31:40.909+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Gender"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        _value="0"
+                                        guideNodeClass="guideRadioButton"
+                                        name="gender"
+                                        options="[0=Male,1=Female]"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1429341
+                                        jcr:created="{Date}2017-04-10T16:32:35.068+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:40:30.810+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Contact Phone Number "
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        displayIsSameAsValidate="true"
+                                        displayPatternType="text{'('999')' 999-9999}"
+                                        displayPictureClause="text{'('999')' 999-9999}"
+                                        guideNodeClass="guideTextBox"
+                                        name="phoneNumber"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1999146
+                                        jcr:created="{Date}2017-04-10T16:31:56.195+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:32:22.727+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Current Address"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="currentAddress"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1787031
+                                        jcr:created="{Date}2017-04-10T16:33:24.252+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:40:21.604+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Email Address"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        displayIsSameAsValidate="true"
+                                        displayPatternType="text{OOOOOOOO'@example.com'}"
+                                        displayPictureClause="text{OOOOOOOO'@example.com'}"
+                                        guideNodeClass="guideTextBox"
+                                        maxChars="0"
+                                        name="emailAddress"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1161470700
+                                        jcr:created="{Date}2017-04-10T16:34:12.956+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:34:43.045+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="National Insurance Number"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="nationalInsuranceNumber"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_680966795
+                                        jcr:created="{Date}2017-04-10T16:34:55.228+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:38:17.540+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="NHS Number"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="nhsNumber"
+                                        placeholderText="10 digits long, not the same as the hospital number"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                            </panel123>
+                            <panel_1741651274
+                                jcr:created="{Date}2017-04-10T16:49:48.341+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T21:15:40.087+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Informal Carer Details"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="informalCarerDetails"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextbox_copy
+                                        jcr:created="{Date}2017-04-10T16:50:32.476+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:52:42.933+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Carer's First Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="carerFirstName"
+                                        textIsRich="[true,true]"/>
+                                    <guideswitch_11058947
                                         jcr:created="{Date}2017-04-10T16:53:17.293+01:00"
                                         jcr:createdBy="admin"
                                         jcr:lastModified="{Date}2017-04-10T16:53:46.885+01:00"
@@ -844,16 +356,203 @@
                                         name="formalCare"
                                         options="[1=Yes,0=No]"
                                         textIsRich="[true,true]"/>
-                                    <panel_1592655491
-                                        jcr:created="{Date}2017-04-10T16:53:54.020+01:00"
+                                    <guidetextbox
+                                        jcr:created="{Date}2017-04-10T16:50:32.476+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:54:11.706+01:00"
+                                        jcr:lastModified="{Date}2017-04-10T16:52:49.061+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        jcr:title="Formal Care"
+                                        jcr:title="Carer's Last Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="carerLastName"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1399494382
+                                        jcr:created="{Date}2017-04-10T16:51:36.027+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:51:51.215+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Carer's Address"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="carerAddress"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                            </panel_1741651274>
+                            <panel_1592655491
+                                jcr:created="{Date}2017-04-10T16:53:54.020+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T21:23:33.983+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Formal Carer Details"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="formalCareDetauls"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextbox_copy
+                                        jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:55:09.398+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Carer's First Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="formalCarerFirstName"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox
+                                        jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:55:26.366+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Carer's Last Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="formalCarerLastName"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1758987769
+                                        jcr:created="{Date}2017-04-10T16:55:32.715+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:56:08.858+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Carer's Address"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="formalcarerAddress"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                            </panel_1592655491>
+                            <panel_1720300283
+                                jcr:created="{Date}2017-04-10T16:57:07.467+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T21:00:07.745+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Previous Local Authority"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="previousLocalAuthorityDetails"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextbox
+                                        jcr:created="{Date}2017-04-10T16:57:22.022+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:58:22.895+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Name of Previous Local Authority"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="previousLocalAuthorityName"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                            </panel_1720300283>
+                            <applicantgpdetails
+                                jcr:lastModified="{Date}2017-04-10T20:50:08.551+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="GP Details"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="applicantGPDetails"
+                                textIsRich="true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <guidetextbox_1514329
+                                        jcr:created="{Date}2017-04-10T16:38:23.325+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:38:55.070+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="GP Practice Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="gpPracticeName"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_8098497
+                                        jcr:created="{Date}2017-04-10T16:39:00.412+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:39:22.078+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="GP Practice Address"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        guideNodeClass="guideTextBox"
+                                        name="gpPracticeAddress"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_1926685
+                                        jcr:created="{Date}2017-04-10T16:39:31.403+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:39:59.369+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="GP Practice Contact Phone Number "
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        displayIsSameAsValidate="true"
+                                        displayPatternType="text{'('999')' 999-9999}"
+                                        displayPictureClause="text{'('999')' 999-9999}"
+                                        guideNodeClass="guideTextBox"
+                                        maxChars="0"
+                                        name="gpPhoneNumber"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </applicantgpdetails>
+                            <panel_1987989962
+                                jcr:created="{Date}2017-04-10T16:11:09.582+01:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-10T16:23:30.245+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Application"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="mainPanel"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/panel/accordion"
+                                    columns="1"
+                                    enableLayoutOptimization="{Boolean}true"
+                                    nonNavigable="false"
+                                    toolbarPosition="Bottom"/>
+                                <items jcr:primaryType="nt:unstructured">
+                                    <panel
+                                        jcr:created="{Date}2017-04-10T15:56:56.613+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T15:58:21.946+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Your Home &amp; Living Situation"
                                         sling:resourceType="fd/af/components/panel"
                                         guideNodeClass="guidePanel"
-                                        name="formalCare"
+                                        name="livingSituation"
+                                        summaryExpVisible="yes"
                                         textIsRich="true">
                                         <layout
                                             jcr:primaryType="nt:unstructured"
@@ -864,90 +563,448 @@
                                         <items
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                            <guidetextbox_copy
-                                                jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:55:09.398+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's First Name"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="formalCarerFirstName"
-                                                textIsRich="[true,true]"/>
-                                            <guidetextbox
-                                                jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:55:26.366+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's Last Name"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="formalCarerLastName"
-                                                textIsRich="[true,true]"/>
-                                            <guidetextbox_1758987769
-                                                jcr:created="{Date}2017-04-10T16:55:32.715+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:56:08.858+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Carer's Address"
-                                                sling:resourceType="fd/af/components/guidetextbox"
-                                                guideNodeClass="guideTextBox"
-                                                name="formalcarerAddress"
-                                                textIsRich="[true,true]"/>
                                             <guideswitch
-                                                jcr:created="{Date}2017-04-10T16:56:26.556+01:00"
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
                                                 jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:57:02.520+01:00"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                                                 jcr:lastModifiedBy="admin"
                                                 jcr:primaryType="nt:unstructured"
-                                                jcr:title="Are you moving from another Local Authority area?"
+                                                jcr:title="Are you able to maintain and clean your home independently?"
                                                 sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
                                                 guideNodeClass="guideSwitch"
-                                                name="movingLocalAuthorities"
-                                                options="[1=On,0=Off]"
-                                                textIsRich="[true,true]"/>
-                                            <panel
-                                                jcr:created="{Date}2017-04-10T16:57:07.467+01:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2017-04-10T16:58:41.850+01:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Section"
-                                                sling:resourceType="fd/af/components/panel"
-                                                guideNodeClass="guidePanel"
-                                                name="previousLocalAuthorityDetails"
-                                                textIsRich="true">
+                                                name="cleanHome"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
                                                 <layout
                                                     jcr:primaryType="nt:unstructured"
-                                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
-                                                    columns="1"
-                                                    nonNavigable="true"
-                                                    toolbarPosition="Bottom"/>
-                                                <items
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch>
+                                            <guideswitch_copy
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to manage your day to day paperwork independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="dailyPaperwork"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
                                                     jcr:primaryType="nt:unstructured"
-                                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                                    <guidetextbox
-                                                        jcr:created="{Date}2017-04-10T16:57:22.022+01:00"
-                                                        jcr:createdBy="admin"
-                                                        jcr:lastModified="{Date}2017-04-10T16:58:22.895+01:00"
-                                                        jcr:lastModifiedBy="admin"
-                                                        jcr:primaryType="nt:unstructured"
-                                                        jcr:title="Name of Previous Local Authority"
-                                                        sling:resourceType="fd/af/components/guidetextbox"
-                                                        guideNodeClass="guideTextBox"
-                                                        name="previousLocalAuthorityName"
-                                                        textIsRich="[true,true]"/>
-                                                </items>
-                                            </panel>
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy>
                                         </items>
-                                    </panel_1592655491>
+                                    </panel>
+                                    <panel_176461059
+                                        jcr:created="{Date}2017-04-10T15:59:14.541+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:00:11.529+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Eating Healthily and Staying Safe"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="eatingHealthily"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideswitch_copy_112
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to shop for food/essentials independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="shopIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_112>
+                                            <guideswitch_copy_864
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to prepare meals, drinks and snacks independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="prepareMeals"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864>
+                                            <guideswitch_copy_864_1080506259
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to eat and drink independently and without supervision?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="eatDrinkIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_1080506259>
+                                        </items>
+                                    </panel_176461059>
+                                    <panel_794473001
+                                        jcr:created="{Date}2017-04-10T16:00:59.341+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:01:17.656+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Personal Care"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="personalCare"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideswitch_copy_864
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to use the toilet independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="toiletIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864>
+                                            <guideswitch_copy_864_110386209
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to wash independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="washIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_110386209>
+                                            <guideswitch_copy_864_1395448286
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to get dressed and undressed independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="dressIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_1395448286>
+                                        </items>
+                                    </panel_794473001>
+                                    <panel_46892915
+                                        jcr:created="{Date}2017-04-10T16:02:36.444+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:03:05.368+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Social Relationships and Activities"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="socialRelationships"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideswitch_copy_864
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to develop and maintain relationships with family/friends/others?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="familyFriends"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864>
+                                            <guideswitch_copy_864_1527904240
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to go out into the community independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="communityIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_1527904240>
+                                            <guideswitch_copy_864_300486265
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you able to socialise independently?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="socialiseIndependent"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_300486265>
+                                        </items>
+                                    </panel_46892915>
+                                    <panel_153572762
+                                        jcr:created="{Date}2017-04-10T16:04:09.972+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:04:39.355+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Work, Training, Education and Volunteering"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="workTraining"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideradiobutton_cop
+                                                jcr:created="{Date}2017-04-10T15:30:21.213+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Can you access and undertake work/training/education/volunteering independently?"
+                                                sling:resourceType="fd/af/components/guideradiobutton"
+                                                _value="2"
+                                                guideNodeClass="guideRadioButton"
+                                                name="workIndependent"
+                                                options="[0=Yes,1=No,2=Not Applicable]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideradiobutton_cop>
+                                        </items>
+                                    </panel_153572762>
+                                    <panel_1028840837
+                                        jcr:created="{Date}2017-04-10T16:05:04.067+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:05:22.418+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Caring for Others"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="caringForOthers"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideradiobutton_cop
+                                                jcr:created="{Date}2017-04-10T15:30:21.213+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Do you have any children that are dependant on you?"
+                                                sling:resourceType="fd/af/components/guideradiobutton"
+                                                _value="2"
+                                                guideNodeClass="guideRadioButton"
+                                                name="childrenDependant"
+                                                options="[0=Yes,1=No,2=Not Applicable]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideradiobutton_cop>
+                                        </items>
+                                    </panel_1028840837>
+                                    <panel_620839642
+                                        jcr:created="{Date}2017-04-10T16:06:05.445+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:06:23.410+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Staying Safe"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="stayingSafe"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideswitch_copy_864
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you safe to be at home on your own?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="homeAlone"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864>
+                                            <guideswitch_copy_864_1558573105
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Are you currently at risk of falls?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="fallRisk"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864_1558573105>
+                                        </items>
+                                    </panel_620839642>
+                                    <panel_1266729512
+                                        jcr:created="{Date}2017-04-10T16:06:49.716+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:07:18.881+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Mental Health and Well Being"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="mentalWellBeing"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guideswitch_copy_864
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Do you or have you ever suffered from a serious mental health issue?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="mentalHealthIssue"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_864>
+                                            <guideswitch_copy_865
+                                                jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Have you had contact with mental health services in the past year?"
+                                                sling:resourceType="fd/af/components/guideswitch"
+                                                _value="0"
+                                                guideNodeClass="guideSwitch"
+                                                name="healthServicesPastYear"
+                                                options="[1=Yes,0=No]"
+                                                textIsRich="[true,true]">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                                            </guideswitch_copy_865>
+                                        </items>
+                                    </panel_1266729512>
                                 </items>
-                            </panel>
+                            </panel_1987989962>
                         </items>
-                    </panel>
+                    </panel_923271960>
                 </items>
             </rootPanel>
             <autoSaveInfo
