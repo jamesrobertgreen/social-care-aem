@@ -43,11 +43,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to maintain and clean your home independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="cleanHome"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy
@@ -56,11 +56,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to manage your day to day paperwork independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="dailyPaperwork"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_1125289243
@@ -69,11 +69,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to shop for food/essentials independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="shopIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864569350
@@ -82,11 +82,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to prepare meals, drinks and snacks independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="prepareMeals"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_1205601295
@@ -95,11 +95,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to eat and drink independently and without supervision?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="eatDrinkIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_122043942
@@ -108,11 +108,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to use the toilet independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="toiletIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_892690274
@@ -121,11 +121,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to wash independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="washIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_19061303
@@ -134,11 +134,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to get dressed and undressed independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="dressIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_887029076
@@ -147,11 +147,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to develop and maintain relationships with family/friends/others?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="familyFriends"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_1037104550
@@ -160,11 +160,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to go out into the community independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="communityIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_1187697485
@@ -173,11 +173,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you able to socialise independently?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="socialiseIndependent"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideradiobutton_cop
@@ -186,11 +186,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Radio Button"
+                        jcr:title="Can you access and undertake work/training/education/volunteering independently?"
                         sling:resourceType="fd/af/components/guideradiobutton"
                         _value="2"
                         guideNodeClass="guideRadioButton"
-                        name="radiobutton1491834621295"
+                        name="workIndependent"
                         options="[0=Yes,1=No,2=Not Applicable]"
                         textIsRich="[true,true]"/>
                     <guideradiobutton_cop_224978181
@@ -199,25 +199,12 @@
                         jcr:lastModified="{Date}2017-04-10T15:31:11.084+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Radio Button"
+                        jcr:title="Do you have any children that are dependant on you?"
                         sling:resourceType="fd/af/components/guideradiobutton"
                         _value="2"
                         guideNodeClass="guideRadioButton"
-                        name="radiobutton1491834621295"
+                        name="childrenDependant"
                         options="[0=Yes,1=No,2=Not Applicable]"
-                        textIsRich="[true,true]"/>
-                    <guideswitch_copy_864_1512651750
-                        jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
-                        sling:resourceType="fd/af/components/guideswitch"
-                        _value="1"
-                        guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
-                        options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_838739545
                         jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
@@ -225,11 +212,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you safe to be at home on your own?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="homeAlone"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864_867456462
@@ -238,11 +225,11 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Are you currently at risk of falls?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="fallRisk"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
                     <guideswitch_copy_864
@@ -251,13 +238,26 @@
                         jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Switch"
+                        jcr:title="Do you or have you ever suffered from a serious mental health issue?"
                         sling:resourceType="fd/af/components/guideswitch"
                         _value="1"
                         guideNodeClass="guideSwitch"
-                        name="switch1491834484590"
+                        name="mentalHealthIssue"
                         options="[1=Yes,0=No]"
                         textIsRich="[true,true]"/>
+                    <guideswitch_copy_865
+                            jcr:created="{Date}2017-04-10T15:28:04.517+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-04-10T15:28:24.398+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Have you had contact with mental health services in the past year?"
+                            sling:resourceType="fd/af/components/guideswitch"
+                            _value="1"
+                            guideNodeClass="guideSwitch"
+                            name="healthServicesPastYear"
+                            options="[1=Yes,0=No]"
+                            textIsRich="[true,true]"/>
                 </items>
             </rootPanel>
         </guideContainer>
