@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2017-04-10T21:38:11.448+01:00"
+        cq:lastModified="{Date}2017-04-10T22:14:05.082+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templates/blankTemplate2"
         jcr:language="en"
@@ -32,7 +32,9 @@
             <rootPanel
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fd/af/components/rootPanel"
+                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel&quot;,&quot;event&quot;:&quot;Initialize&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;nhsFacilityDetails.visible = false;\\nformalCareDetauls.visible = false;\\ninformalCarerDetails.visible = false;\\npreviousLocalAuthorityDetails.visible = false;\\n\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1}]}"
                 guideNodeClass="rootPanelNode"
+                initScript="&#xa;try {&#xa;    eval(&quot;nhsFacilityDetails.visible = false;\\nformalCareDetauls.visible = false;\\ninformalCarerDetails.visible = false;\\npreviousLocalAuthorityDetails.visible = false;\\n\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"
                 name="guideRootPanel"
                 panelSetType="Navigable">
                 <layout
@@ -81,22 +83,41 @@
                                         jcr:title="Do you currently receive informal care?"
                                         sling:resourceType="fd/af/components/guideswitch"
                                         _value="0"
+                                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.receiveInformalCare&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;1\\&quot;) {\\n    informalCarerDetails.visible = true;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1},{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.receiveInformalCare&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;0\\&quot;) {\\n    informalCarerDetails.visible = false;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1}]}"
                                         guideNodeClass="guideSwitch"
                                         name="receiveInformalCare"
                                         options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]"/>
+                                        textIsRich="[true,true]"
+                                        valueCommitScript="&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;1\\&quot;) {\\n    informalCarerDetails.visible = true;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;0\\&quot;) {\\n    informalCarerDetails.visible = false;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"/>
+                                    <guideswitch_11058947
+                                        jcr:created="{Date}2017-04-10T16:53:17.293+01:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-10T16:53:46.885+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Do you currently receive formal or paid care or support (e.g health, social care, housing, equipment)? "
+                                        sling:resourceType="fd/af/components/guideswitch"
+                                        _value="0"
+                                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.formalCare&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;1\\&quot;) {\\n    formalCareDetauls.visible = true;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1},{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.formalCare&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;0\\&quot;) {\\n    formalCareDetauls.visible = false;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1}]}"
+                                        guideNodeClass="guideSwitch"
+                                        name="formalCare"
+                                        options="[1=Yes,0=No]"
+                                        textIsRich="[true,true]"
+                                        valueCommitScript="&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;1\\&quot;) {\\n    formalCareDetauls.visible = true;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;0\\&quot;) {\\n    formalCareDetauls.visible = false;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"/>
                                     <guideswitch
                                         jcr:created="{Date}2017-04-10T16:56:26.556+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:57:02.520+01:00"
+                                        jcr:lastModified="{Date}2017-04-10T22:14:05.070+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Are you moving from another Local Authority area?"
                                         sling:resourceType="fd/af/components/guideswitch"
+                                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.movingLocalAuthorities&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;1\\&quot;) {\\n    previousLocalAuthorityDetails.visible = true;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1},{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.movingLocalAuthorities&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;0\\&quot;) {\\n    previousLocalAuthorityDetails.visible = false;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1}]}"
                                         guideNodeClass="guideSwitch"
                                         name="movingLocalAuthorities"
-                                        options="[1=On,0=Off]"
-                                        textIsRich="[true,true]"/>
+                                        options="[1=Yes,0=No]"
+                                        textIsRich="[true,true]"
+                                        valueCommitScript="&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;1\\&quot;) {\\n    previousLocalAuthorityDetails.visible = true;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;0\\&quot;) {\\n    previousLocalAuthorityDetails.visible = false;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"/>
                                     <guideswitch_11751090
                                         jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
                                         jcr:createdBy="admin"
@@ -105,10 +126,12 @@
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Are you currently staying in a hospital or other NHS facility?"
                                         sling:resourceType="fd/af/components/guideswitch"
+                                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.stayingInNHSFacility&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;1\\&quot;) {\\n    nhsFacilityDetails.visible = true;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1},{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.applicationMainPanel.peliminaryQuestions.stayingInNHSFacility&quot;,&quot;event&quot;:&quot;Value Commit&quot;,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;},&quot;content&quot;:&quot;if (this.value == \\&quot;0\\&quot;) {\\n    nhsFacilityDetails.visible = false;\\n}\\n&quot;},&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;,&quot;version&quot;:1}]}"
                                         guideNodeClass="guideSwitch"
                                         name="stayingInNHSFacility"
                                         options="[1=Yes,0=No]"
-                                        textIsRich="[true,true]"/>
+                                        textIsRich="[true,true]"
+                                        valueCommitScript="&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;1\\&quot;) {\\n    nhsFacilityDetails.visible = true;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;try {&#xa;    eval(&quot;if (this.value == \\&quot;0\\&quot;) {\\n    nhsFacilityDetails.visible = false;\\n}\\n&quot;);&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"/>
                                 </items>
                                 <layout
                                     jcr:primaryType="nt:unstructured"
@@ -342,19 +365,6 @@
                                         sling:resourceType="fd/af/components/guidetextbox"
                                         guideNodeClass="guideTextBox"
                                         name="carerFirstName"
-                                        textIsRich="[true,true]"/>
-                                    <guideswitch_11058947
-                                        jcr:created="{Date}2017-04-10T16:53:17.293+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:53:46.885+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Do you currently receive formal or paid care or support (e.g health, social care, housing, equipment)? "
-                                        sling:resourceType="fd/af/components/guideswitch"
-                                        _value="0"
-                                        guideNodeClass="guideSwitch"
-                                        name="formalCare"
-                                        options="[1=Yes,0=No]"
                                         textIsRich="[true,true]"/>
                                     <guidetextbox
                                         jcr:created="{Date}2017-04-10T16:50:32.476+01:00"
