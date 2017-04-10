@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2017-04-10T09:19:45.321+01:00"
+        cq:lastModified="{Date}2017-04-10T14:49:29.031+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templates/blankTemplate2"
         jcr:language="en"
@@ -12,16 +12,22 @@
         jcr:title="portal"
         sling:resourceType="fd/af/components/page2/afStaticTemplatePage">
         <guideContainer
+            jcr:lastModified="{Date}2017-04-10T14:49:29.029+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="fd/af/components/guideContainer"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
             actionType="fd/fp/components/actions/portalsubmit"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            clientLibRef="SocialCareCSS.page"
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             name="guide1"
-            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/basicTheme">
+            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/basicTheme"
+            useExistingAF="false">
             <layout
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="geometrixx-gov/layouts/mobile/custom"
                 toolbarPosition="Bottom"/>
             <rootPanel
                 jcr:primaryType="nt:unstructured"
@@ -48,7 +54,11 @@
                         guideNodeClass="guideDropDownList"
                         name="assignToUser"
                         options="[grios=Gloria Rios,aaron.mcdonald@mailinator.com=Aaron McDonald,aparker@geometrixx.info=Alison Parker]"
-                        textIsRich="[true,true]"/>
+                        textIsRich="[true,true]">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                    </guidedropdownlist>
                     <submit
                         jcr:created="{Date}2017-04-10T09:03:59.025+01:00"
                         jcr:createdBy="admin"
@@ -63,9 +73,16 @@
                         guideNodeClass="guideButton"
                         name="submit-button"
                         textIsRich="[true,true]"
-                        type="submit"/>
+                        type="submit">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="/libs/fd/af/layouts/gridFluidLayout"/>
+                    </submit>
                 </items>
             </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
         </guideContainer>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

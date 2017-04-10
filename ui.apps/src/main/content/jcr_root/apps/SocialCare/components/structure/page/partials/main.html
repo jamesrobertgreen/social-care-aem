@@ -16,11 +16,12 @@
 <div class="page__main" data-sly-use.main="main.js">
     <header class="page__header">
         <div class="page__logo" data-sly-resource="logo"></div>
+        <div class="page__header__text">Social Care</div>
     </header>
-
-    <div class="page__title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
-    <div class="page__par" data-sly-resource="par"></div>
-
+    <div class="page__main__content">
+        <div class="page__title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
+        <div class="page__par" data-sly-resource="par"></div>
+    </div>
     <footer class="page__footer">
         <div class="pull-left page__copyright">${"&copy; {0} Social Care. All rights reserved." @ i18n, format=main.year, context='html'}</div>
         <span class="pull-right page__ensemble-logo" data-sly-resource="ensemble-logo"></span>

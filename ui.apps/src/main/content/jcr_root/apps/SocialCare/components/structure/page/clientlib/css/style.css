@@ -26,15 +26,42 @@
     zoom: 100%;
     background-color:#DEDEDE;
 }
+
+.page__main__content{
+/*
+    background-image:linear-gradient(
+        rgba(19, 43, 77, 0.8),
+        rgba(19, 43, 77, 0.8)
+        ), url("../images/applicationBG.jpg");
+    background-size: cover;
+
+*/
+}
+
+
 .page__header{
-    background:#4d4d4d;
+    background:#2D62AC;
     margin-left: -1em;
     margin-right: -1em;
+    position:relative;
+    height:6em;
+}
+
+.page__header__text{
+    font-size:2em;
+    color: white;
+    position:absolute; top:50%; height:3em; margin-top:-0.1em; margin-left: 3em }
 }
 
 .page__logo {
     display: inline-block;
 }
+
+.page__logo img{
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
 .button-default{
     color:red;
 }
@@ -61,8 +88,41 @@
 }
 
 .page__title h1 {
-    color: black;
+    color:black;
+/*
+    color: white;
+    background: #132b4d;
+    border: none;
+    position: fixed;
+    top: 65px;
+    width:100%;
+    */
 }
+
+
+#guideContainer-rootPanel-submit___widget{
+    color:white;
+    background:#17b28d;
+    border-radius:0px;
+    border-style: outset;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-right: 50px;
+    float:right;
+}
+
+
+
+.submit{
+    color:green;
+}
+
 
 /* Scale down too wide images from the parsys */
 .page__par img {

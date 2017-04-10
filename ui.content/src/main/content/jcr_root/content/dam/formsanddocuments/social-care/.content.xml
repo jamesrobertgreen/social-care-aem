@@ -4,6 +4,8 @@
     lcFolder="{Long}0">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Social Care"/>
+        jcr:title="Social Care">
+        <folderThumbnail/>
+    </jcr:content>
     <portal/>
 </jcr:root>
