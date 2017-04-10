@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2017-04-10T09:19:45.336+01:00"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/af/render"
+        guide="1">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="HTML"
+            author="admin"
+            availableInMobileApp="{Boolean}false"
+            dorType="none"
+            formmodel="none"
+            title="portal"/>
+    </jcr:content>
+</jcr:root>

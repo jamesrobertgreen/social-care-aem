@@ -2,4 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/content/SocialCare"/>
     <filter root="/content/dam/SocialCare"/>
+    <filter root="/content/dam/formsanddocuments/social-care"/>
+    <filter root="/content/forms/af/social-care"/>
 </workspaceFilter>

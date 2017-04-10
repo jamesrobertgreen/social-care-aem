@@ -35,8 +35,8 @@
 .page__logo {
     display: inline-block;
 }
-.submit-button{
-color:red;
+.button-default{
+    color:red;
 }
 .page__topnav {
     position: absolute;
