@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:lastModified="{Date}2017-04-11T01:38:33.334-07:00"
+    jcr:lastModifiedBy="fd-service"
+    jcr:mixinTypes="[mix:lastModified]"
+    jcr:primaryType="sling:OrderedFolder"
+    lcApplication="{Long}0"
+    syncState="{Long}1">
+    <_x0031_.0/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>
