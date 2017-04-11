@@ -1,0 +1,1180 @@
+input,select,textarea,.guideScribble img,.afTermsAndConditions  {
+    border-style:solid;
+    border-top-width:1px;
+    border-left-width:1px;
+    border-bottom-width:1px;
+    border-right-width:1px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+    border-color:#cde0ec;
+    height:38px;
+    color:#333333;
+    font-size:14px;
+    line-height:1.42857143;
+    padding-bottom:8px;
+    padding-left:8px;
+    padding-top:8px;
+    padding-right:8px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    background:#ffffff;
+  }
+ .guideFieldWidget {
+width:100%;
+display:inline-block;
+}
+label  {
+    line-height:1.42857143;
+    font-weight:normal;
+    padding-left:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-top:5px;
+    color:#FFFFFF;
+  }
+.afToolbarButton .guidebutton button:not(.af-icon-button)  {
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border-style:outset;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-right:15px;
+    border-color:#285e8e;
+    font-size:14px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    line-height:30px;
+  }
+ .afToolbarButton {
+width:auto;
+float:none;
+display:inline-block;
+}
+ .afToolbarButton button {
+width:100%;
+}
+.afToolbarButton .guidebutton button:not(.af-icon-button):hover  {
+cursor : pointer;
+  }
+.afToolbarButton .guidebutton button:not(.af-icon-button):focus  {
+  }
+.afToolbarButton .guidebutton button:not(.af-icon-button):active  {
+  }
+.guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch)  {
+    width:100%;
+  }
+.guideCheckBoxGroupItems:not(.guideImageChoice):not(.guideSwitch)  {
+    float:right;
+    display:inline-block;
+    height:24px;
+    width:54px;
+    margin-top:1%;
+  }
+.multiline.textField textArea  {
+    height:76px;
+  }
+.guideImage img  {
+    height:auto;
+    width:inherit;
+    max-width:100%;
+    max-height:100%;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-top:10px;
+  }
+.guideChart  {
+    height:100%;
+    width:inherit;
+    max-width:100%;
+    max-height:100%;
+  }
+.afToolbarButton .guidebutton button .iconButton-icon  {
+    height:25px;
+    width:25px;
+    display:none;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:Auto;
+    margin-left:Auto;
+  }
+.accordion-navigators .guideHeader > a  {
+    display:block;
+    border-style:solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-color:#000000;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-top:20px;
+    padding-right:10px;
+    font-size:16px;
+    text-decoration:none;
+    color:#fffafa;
+    cursor:pointer;
+    background:#132b4d;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:10px;
+  }
+.accordion-navigators .active > .guideHeader > a, .accordion-navigators .active .guideHeader > a:hover  {
+    color:#fffafa;
+    background:#132b4d;
+  }
+.accordion-navigators .stepped .guideHeader > a  {
+    color:#fffafa;
+  }
+.accordion-navigators .guideHeader > a:hover  {
+    color:#fffafa;
+  }
+.accordion-navigators .guideHeader .repeatableButtons button.Add  {
+    border:none;
+    width:25px;
+    height:25px;
+    background:url(/etc/clientlibs/fd/af/images/add.png) left top no-repeat;
+    display:none;
+  }
+.accordion-navigators .guideHeader .repeatableButtons > button.Add:hover  {
+    background:url(/etc/clientlibs/fd/af/images/add_hover.png) left top no-repeat;
+  }
+.accordion-navigators .active > .guideHeader .repeatableButtons > button.Add  {
+    background:url(/etc/clientlibs/fd/af/images/add_white.png) left top no-repeat;
+  }
+.accordion-navigators .guideHeader .repeatableButtons button.Remove  {
+    border:none;
+    width:25px;
+    height:25px;
+    background:url(/etc/clientlibs/fd/af/images/delete.png) left top no-repeat;
+    display:none;
+  }
+.accordion-navigators .guideHeader .repeatableButtons button.Remove:hover  {
+    background:url(/etc/clientlibs/fd/af/images/delete_hover.png) left top no-repeat;
+  }
+.accordion-navigators .active > .guideHeader .repeatableButtons > button.Remove  {
+    background:url(/etc/clientlibs/fd/af/images/delete_white.png) left top no-repeat;
+  }
+.guideTabbedPanelLayout  {
+    border-top-width:1px;
+    border-left-width:1px;
+    border-bottom-width:1px;
+    border-right-width:1px;
+    border-style:solid;
+    border-color:#08b1cf;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical  {
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-top:0px;
+    padding-right:0px;
+    list-style:none;
+    cursor:pointer;
+    overflow:hidden;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:1px;
+    border-style:solid;
+    border-color:#08b1cf;
+    background:#f1f1f1;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li > a  {
+    font-size:16px;
+    color:#333333;
+    width:calc(100% - 35px);
+    margin-bottom:2px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    display:block;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-right:5px;
+    text-decoration:none;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:2px;
+    border-right-width:0px;
+    border-color:#DDDDDD;
+    border-style:solid;
+    background:url(/etc/clientlibs/fd/af/images/tick.png) left center no-repeat,#f1f1f1;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li.active > a, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li.active.stepped > a, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li.active > a:hover  {
+    color:#ffffff;
+    background:url(/etc/clientlibs/fd/af/images/tick-active.png) left top no-repeat,#007fa2;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li > a:hover, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical > li.stepped > a:hover  {
+    color:#ffffff;
+    background:url(/etc/clientlibs/fd/af/images/tick-active.png) left top no-repeat,#007fa2;
+  }
+.wizard-navigators  {
+    counter-reset:item;
+    margin-bottom:10px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-top:0px;
+    padding-right:0px;
+    list-style-type:none;
+    font-size:16px;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:default;
+    text-transform:uppercase;
+    display:block;
+  }
+.wizard-navigators > li > a  {
+    counter-increment:item;
+    display:inline-block;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-style:solid;
+    border-color:#000000;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    margin-right:10px;
+    color:rgba(255,250,250,0.6);
+text-decoration: none;
+word-break: break-word;
+white-space: normal;    margin-top:20px;
+    width:Auto;
+    text-align:center;
+  }
+.wizard-navigators > li.active > a, .wizard-navigators > li.active.stepped > a, .wizard-navigators > li.active > a:hover  {
+    color:#17b28d;
+    border-bottom-width:5px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-style:solid;
+    border-color:#17b28d;
+    min-height:1px;
+  }
+
+.wizard-navigators > li.active > a::before, .wizard-navigators > li.active.stepped > a::before, .wizard-navigators > li.active > a:hover::before{
+background-color: #0079c1;}
+.wizard-navigators > li.stepped > a  {
+    color:rgba(255,250,250,0.6);
+  }
+
+.wizard-navigators > li.stepped > a::before{
+background-color: #02874e;}
+.wizard-navigators > li > a:hover  {
+text-decoration: none;    color:#17b28d;
+  }
+.guide-tab-scroller.guide-tab-scroller-next  {
+    margin-top:10px;
+    height:44px;
+    cursor:pointer;
+    background:url(/etc/clientlibs/fd/af/images/next.png) right bottom no-repeat;
+  }
+.guide-tab-scroller.guide-tab-scroller-previous  {
+    margin-top:10px;
+    height:44px;
+    cursor:pointer;
+    background:url(/etc/clientlibs/fd/af/images/previous.png) left bottom no-repeat;
+  }
+.wizard-nav-arrow.wizard-nav-prev  {
+    height:200px;
+    cursor:pointer;
+cursor : pointer;    background:url(/etc/clientlibs/fd/af/images/previous-page.png) center bottom no-repeat;
+    display:none;
+  }
+.wizard-nav-arrow.wizard-nav-next  {
+    height:200px;
+    cursor:pointer;
+cursor : pointer;    background:url(/etc/clientlibs/fd/af/images/next-page.png) center bottom no-repeat;
+    display:none;
+  }
+.guide-header-bar  {
+    color:rgb(255,255,255);
+    display:none;
+  }
+.guideFieldWidget.guideNumericStepper a.ui-spinner-button.ui-spinner-down  {
+    background:url(/etc/clientlibs/fd/af/guideCustomComponents/numericStepper/less/images/Minus.svg) center center / 74px 74px,#FFFFFF;
+    width:16px;
+    height:38px;
+    top:0px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+  }
+.guideFieldWidget.guideNumericStepper input[type='text'].ui-spinner-input  {
+    height:38px;
+width: calc(100% - 32px);    padding-left:5px;
+    padding-bottom:0px;
+    padding-right:5px;
+    padding-top:0px;
+    top:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    background:#FFFFFF;
+  }
+.guideFieldWidget.guideNumericStepper a.ui-spinner-button.ui-spinner-up   {
+    background:url(/etc/clientlibs/fd/af/guideCustomComponents/numericStepper/less/images/Plus.svg) center center / 74px 74px;
+    width:16px;
+    height:38px;
+    top:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-top:0px;
+  }
+.guideformtitle,.guideTextDraw.guideformtitle  {
+    margin-top:120px;
+  }
+.guideHelpQuestionMark  {
+    display:block;
+    width:18px;
+    height:18px;
+    border-bottom-right-radius:9px;
+    border-bottom-left-radius:9px;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg) center center / cover no-repeat,#007fa2;
+cursor : pointer;
+    float:none;
+  }
+.guideHelpQuestionMark:hover  {
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg) left top / cover no-repeat,#016e8f;
+  }
+.wizard-navigators > li .indicator  {
+    width:0px;
+    height:0px;
+    border-style:solid;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    margin-top:0px;
+    z-index:20;
+border-bottom-color : #999999;    border-left-width:8px;
+    border-bottom-width:8px;
+    border-right-width:8px;
+    border-top-width:8px;
+    border-color:rgba(255,255,255,0);
+    display:none;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+  }
+.wizard-navigators > li.active .indicator, .wizard-navigators > li.active.stepped .indicator, .wizard-navigators > li.active:hover .indicator  {
+border-bottom-color : #0079c1;    display:none;
+  }
+.wizard-navigators > li.stepped .indicator  {
+border-bottom-color : #02874e;    display:none;
+  }
+.wizard-navigators > li .progress  {
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    background:#999999;
+    display:none;
+  }
+.wizard-navigators > li.active .progress, .wizard-navigators > li.active.stepped .progress, .wizard-navigators > li.active:hover .progress  {
+    background:#0079c1;
+  }
+.wizard-navigators > li.stepped .progress  {
+    background:#02874e;
+  }
+.guideTableRuntimeAddControl  {
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/plus.svg) center center / cover no-repeat;
+    width:25px;
+    height:25px;
+cursor : pointer;
+    margin-top:5px;
+    display:inline-block;
+  }
+.guideTableRuntimeDeleteControl  {
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/minus.svg) center center / cover no-repeat;
+    width:25px;
+    height:25px;
+cursor : pointer;
+    margin-top:5px;
+    display:inline-block;
+  }
+.guideTableRuntimeEditControl  {
+    display:inline-block;
+    width:20px;
+    height:24px;
+cursor : pointer;
+    background:url(/etc/clientlibs/fd/af/images/table-edit.png) left top / cover no-repeat;
+  }
+.guideContainerWrapperNode .tooltip.bottom .tooltip-inner  {
+    background:rgba(0,0,0,0.8);
+    max-width:350px;
+    padding-left:8px;
+    padding-bottom:3px;
+    padding-right:8px;
+    padding-top:3px;
+    color:#FFFFFF;
+    text-align:center;
+text-decoration: none;
+white-space: normal;
+word-break: break-word;
+word-wrap: break-word;    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+    width:auto;
+  }
+.guideToolbarNode  {
+    text-align:center;
+    max-width:610px;
+    width:100%;
+    height:auto;
+    position:fixed;
+    bottom:15px;
+    left:auto;
+  }
+.guideFieldDescription.long  {
+    margin-left:0px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-top:5px;
+    clear:both;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    display:none;
+    padding-left:0px;
+    padding-right:0px;
+    border-color:#17b28d;
+    border-left-width:3px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+transition: all 2s;    background:rgba(238,238,238,0);
+    width:100%;
+    font-size:14px;
+    color:rgba(255,250,250,0.8);
+    min-width:-1px;
+  }
+.guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart)  {
+    margin-bottom:5px;
+    margin-top:5px;
+    width:100%;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li > a  {
+    background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-black.png) 3% 50% no-repeat,#FFFFFF;
+    color:#3d3d3d;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li.active > a, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li.active.stepped > a, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li.active > a:hover  {
+    background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png) 3% 50% no-repeat,#FFFFFF;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+    color:#3d3d3d;
+  }
+.guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li > a:hover, .guideTabbedPanelLayout .tab-navigators.tab-navigators-vertical .tab-navigators-vertical > li.stepped > a:hover  {
+    color:#3d3d3d;
+    background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png) 3% 50% no-repeat,#FFFFFF;
+  }
+body  {
+    font-family:Arial;
+    line-height:1.42857143;
+    height:100%;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-top:0px;
+    background:linear-gradient(180deg,rgba(19,43,77,0.8),rgba(19,43,77,0.8)),url(/etc/clientlibs/fd/themes/Geometrixx-Gov/geometrixx-gov-theme-A/assets/1455535612991) center top / cover  fixed;
+  }
+.afTncContentArea  {
+    background:rgba(255,250,250,0.8);
+    overflow:scroll;
+    border-style:solid;
+    border-top-width:1px;
+    border-left-width:1px;
+    border-bottom-width:1px;
+    border-right-width:1px;
+    border-color:#cde0ec;
+    padding-left:20px;
+    padding-bottom:0px;
+    padding-right:20px;
+    padding-top:20px;
+    color:#555555;
+    font-size:14px;
+    font-weight:normal;
+    height:640px;
+    position:relative;
+    text-align:justify;
+  }
+.afTncContentArea.guide-modal-body  {
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-top:20px;
+  }
+.guide-tnc-checkboxwidget input[type='checkbox']  {
+    width:13px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:2px;
+  }
+.guideFieldNode .guideHelpQuestionMark  {
+    position:absolute;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    top:18px;
+    width:15px;
+    height:15px;
+    right:1%;
+  }
+.guideFieldWidget.afTermsAndConditions  {
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators  {
+    margin-bottom:10px;
+    background:rgba(241,241,241,0);
+list-style: none;    overflow:hidden;
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators > li.active > a, .guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.active > a,.guideVerticalTabbedPanelLayout .tab-navigators > li.stepped.active > a,.guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.stepped.active > a, .guideVerticalTabbedPanelLayout .tab-navigators > li.active > a:hover, .guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.active > a:hover  {
+    background:rgba(0,127,162,0);
+    color:#17b28d;
+    border-bottom-width:5px;
+    border-style:solid;
+    border-top-width:0px;
+    border-right-width:0px;
+    border-left-width:0px;
+    border-color:#17b28d;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators > li > a:hover  {
+    background:rgba(0,127,162,0);
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators > li > a  {
+    background:rgba(241,241,241,0);
+    color:rgba(255,250,250,0.6);
+    font-weight:bold;
+    padding-right:0px;
+    padding-left:0px;
+    margin-left:15px;
+    margin-right:15px;
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators > li.stepped > a,.guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.stepped > a  {
+    background:rgba(241,241,241,0);
+  }
+.guideGridFluidLayout  {
+    padding-left:5px;
+    padding-bottom:10px;
+    padding-right:5px;
+    padding-top:10px;
+    color:#fffafa;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:0px;
+  }
+.guide-tnc-checkbox .guideWidgetLabel label  {
+    padding-left:10px;
+  }
+.guideContainer  {
+    height:100%;
+    width:100%;
+    margin-left:Auto;
+    margin-bottom:20px;
+    margin-right:Auto;
+    max-width:610px;
+    position:relative;
+    padding-top:0px;
+overflow-x: hidden;
+  }
+.dropDownList  select  {
+    height:38px;
+  }
+.guideWizardLayout  {
+    width:100%;
+    margin-left:auto;
+    margin-bottom:0px;
+    margin-right:auto;
+    margin-top:0px;
+  }
+.accordion-navigators .guideHeader .guideSummary  {
+    color:#fffafa;
+    font-weight:normal;
+    font-size:16px;
+  }
+.accordion-navigators .active > .guideHeader .guideSummary, .accordion-navigators .active > .guideHeader .guideSummary:hover  {
+    color:#fffafa;
+  }
+.accordion-navigators .guideHeader .guideSummary:hover  {
+    color:#fffafa;
+  }
+.accordion-navigators .stepped .guideHeader .guideSummary  {
+    color:#fffafa;
+  }
+.guideAccordionLayout  {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:5px;
+    padding-left:5px;
+  }
+.guideAccordionDescription.guidePanelDescription  {
+    color:#fffafa;
+    margin-bottom:10px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+  }
+.guideGridFluidDescription.guidePanelDescription  {
+    color:#fffafa;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:5px;
+  }
+hr  {
+    border-left-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+    border-bottom-width:2px;
+    border-style:solid;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    color:#132b4d;
+    margin-top:10px;
+    margin-bottom:10px;
+border-bottom-width:2px !important;  }
+button.guide-fu-attach-button:not(.af-icon-button)  {
+    text-align:left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:50px;
+    background:url(/etc/clientlibs/fd/themes/Geometrixx-Gov/geometrixx-gov-theme-A/assets/1455253799707) -12px -1698px / 246px 1909px no-repeat,#00283c;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+width:100%;    overflow:hidden;
+  }
+ .guideFieldWidget.afFileUpload {
+}
+button.moveNext .iconButton-label  {
+    line-height:30px;
+    text-align:right;
+  }
+button.moveNext:not(.af-icon-button)  {
+    line-height:30px;
+    text-align:center;
+    color:#FFFFFF;
+    background:#17b28d;
+  }
+.guidebutton.nextitemnav {
+width:130px;
+float:none;
+display:block;
+right:-1px;
+}
+.guidebutton.nextitemnav button {
+width:100%;
+}
+button.movePrev:not(.af-icon-button)  {
+    background:#ffffff;
+    line-height:30px;
+    text-align:center;
+    z-index:1;
+    color:#b2b2b2;
+  }
+.guidebutton.previtemnav {
+width:130px;
+}
+.guidebutton.previtemnav button {
+width:100%;
+}
+button.movePrev .iconButton-label  {
+    color:#b2b2b2;
+    text-align:left;
+    display:inline-block;
+  }
+button.save:not(.af-icon-button)  {
+    background:#ffffff;
+    color:#808080;
+  }
+.guidebutton.saveGuideDraft {
+width:310px;
+}
+button.save .iconButton-label  {
+    display:inline-block;
+    color:#808080;
+    line-height:30px;
+    text-align:center;
+  }
+.guideRadioButtonItem  {
+    font-size:14px;
+    padding-left:5px;
+    padding-bottom:10px;
+    padding-right:5px;
+    padding-top:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-left:0px;
+cursor:pointer;    color:#FFFFFF;
+    background:#132b4d;
+    display:block;
+  }
+.guideItemSelected.guideRadioButtonItem  {
+    background:#0079C1;
+  }
+.guideRadioButtonItem .guideWidgetLabel label  {
+    font-size:14px;
+    margin-bottom:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    height:auto;
+    padding-left:0px;
+  }
+ .guideRadioButtonItem .guideWidgetLabel {
+width:98%;
+display:inline-block;
+}
+.afAccordionPanel  {
+    background:#132b4d;
+    padding-top:0px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+    display:block;
+    margin-bottom:10px;
+  }
+.textField input[type='text']  {
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+  }
+button:not(.af-icon-button),input[type='button']  {
+    padding-left:50px;
+    color:#FFFFFF;
+    border-color:#285e8e;
+    border-style:hidden;
+    padding-bottom:15px;
+    padding-top:15px;
+    background:#17b28d;
+  }
+.guidebutton {
+display:inline-block;
+}
+.guideTextDraw  {
+    display:inline-block;
+    float:left;
+  }
+.guideCheckBoxItem  {
+    width:54px;
+    height:24px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-top:0px;
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-top:0px;
+    border-bottom-right-radius:2px;
+    border-bottom-left-radius:2px;
+    border-top-right-radius:2px;
+    border-top-left-radius:2px;
+cursor:pointer;    display:inline-block;
+    float:right;
+    background:url(/etc/designs/geometrixx-gov/clientlibs/geometrixx-gov-child-support-service-v2/images/spritesheet.png) -25px -1258px / 246px 1909px no-repeat;
+  }
+.guideCheckBoxItem.guideItemSelected  {
+background-position: -25px -1860px;     display:inline-block;
+    width:54px;
+    height:24px;
+    float:none;
+    border-top-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-bottom-left-radius:2px;
+    border-top-right-radius:2px;
+    position:relative;
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-right:0px;
+    clear:none;
+    background:url(/etc/designs/geometrixx-gov/clientlibs/geometrixx-gov-child-support-service-v2/images/spritesheet.png) -25px -1860px / 246px 1909px no-repeat;
+  }
+.guideCheckBoxItem .guideWidgetLabel label  {
+    height:auto;
+visibility: hidden;  }
+ .guideCheckBoxItem .guideWidgetLabel {
+width:auto;
+display:inline-block;
+}
+.XfaCheckBox input[type='checkbox']  {
+    width:0px;
+    height:0px;
+    display:none;
+    float:none;
+visibility: none;  }
+.XfaCheckBox input[type='radio']  {
+    display:none;
+  }
+button.fileattachmentlisting:not(.af-icon-button)  {
+  }
+.guidebutton.fileattachmentlisting {
+width:100%;
+display:inline-block;
+}
+.guidebutton.fileattachmentlisting button {
+width:100%;
+}
+.afHeader  {
+    color:#FFFFFF;
+    height:65px;
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    z-index:1030;
+    min-height:40px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+    border-style:solid;
+    background:#2D62AC;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-top:0px;
+  }
+.guideimage .logoImage img  {
+    height:55px;
+    width:216px;
+    margin-top:2%;
+    margin-right:0px;
+    margin-left:40%;
+    margin-bottom:0px;
+  }
+.afFooter  {
+    height:40px;
+    width:100%;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:10px;
+    padding-right:0px;
+    padding-bottom:15px;
+    padding-left:0px;
+    background:#484848;
+    margin-top:0px;
+    display:none;
+  }
+@media (max-width: 767px) {
+.afToolbarButton .guidebutton button:not(.af-icon-button)  {
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-right:0px;
+    height:50px;
+  }
+ .afToolbarButton {
+width:32.5%;
+display:inline-block;
+}
+ .afToolbarButton button {
+width:100%;
+}
+.afToolbarButton .guidebutton button .iconButton-icon  {
+    display:block;
+    height:0px;
+  }
+.accordion-navigators .guideHeader .repeatableButtons button.Add  {
+    display:none;
+  }
+.accordion-navigators .guideHeader .repeatableButtons button.Remove  {
+    display:none;
+  }
+.wizard-nav-arrow.wizard-nav-prev  {
+    display:none;
+  }
+.wizard-nav-arrow.wizard-nav-next  {
+    display:none;
+  }
+.guide-header-bar  {
+    color:#ffffff;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-top:0px;
+    padding-right:0px;
+    text-transform:uppercase;
+    background:#00283c;
+  }
+.guide-header-bar .guide-breadcrumb  {
+    float:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    color:#FFFFFF;
+  }
+.guide-nav-next.guide-nav-toolbar-button  {
+    position:relative;
+    display:inline-block;
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/next.svg) center center / cover no-repeat;
+    margin-left:10px;
+    margin-bottom:0px;
+    margin-top:8px;
+    margin-right:0px;
+    width:30px;
+    height:30px;
+cursor : pointer;
+  }
+.guide-nav-prev.guide-nav-toolbar-button  {
+    position:relative;
+    display:inline-block;
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/prev.svg) center center / cover no-repeat;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-top:8px;
+    margin-right:10px;
+    width:30px;
+    height:30px;
+cursor : pointer;
+  }
+.guide-mobile-navigator .navigator-toggle  {
+    margin-bottom:13px;
+    border:none;
+    float:right;
+    cursor:pointer;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    width:34px;
+    height:30px;
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/menu.svg) 10px 8px / cover no-repeat,#d53058;
+  }
+.guide-mobile-navigator .navigator-toggle:hover  {
+    background:url(/etc/clientlibs/fd/af/guidetheme2/images/menu.svg) 10px 8px / cover no-repeat,#c6264c;
+  }
+.guideHelpQuestionMark  {
+    position:absolute;
+    right:1%;
+    top:12px;
+    display:inline-block;
+  }
+.guideToolbarNode  {
+    background:#013853;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    left:0%;
+  }
+.afToolbarButton .guidebutton button .iconButton-label  {
+  }
+.guideFieldDescription.long  {
+    padding-right:0px;
+    padding-left:0px;
+  }
+.mobileScrollIndicator  {
+    display:none;
+    z-index:55;
+    position:fixed;
+    bottom:20px;
+    right:0px;
+    width:50px;
+    height:50px;
+    background:url(/etc/clientlibs/fd/af/images/more-arrow.png) left top no-repeat;
+  }
+.tab-navigators.tab-navigators-mobile  {
+    background:#f1f1f1;
+list-style: none;
+cursor: pointer;
+overflow: hidden    padding-left:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-right:0px;
+  }
+.tab-navigators.tab-navigators-mobile > li > a  {
+    color:#3d3d3d;
+    background:#f1f1f1;
+    font-size:16px;
+    padding-left:30px;
+    width:100%;
+    margin-left:0px;
+    margin-bottom:2px;
+    margin-top:0px;
+    margin-right:0px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+text-decoration: none;  }
+.tab-navigators.tab-navigators-mobile > li.active > a, .tab-navigators.tab-navigators-mobile > li.active.stepped > a  {
+    background:#007fa2;
+    color:#FFFFFF;
+  }
+.tab-navigators.tab-navigators-mobile > li.wizard-tab-disabled > a, .tab-navigators.tab-navigators-mobile > li.wizard-tab-disabled > a:hover  {
+    opacity:0.5;
+  }
+body  {
+    background:#1A3A65;
+  }
+.guideFieldNode .guideHelpQuestionMark  {
+    position:absolute;
+    top:12px;
+    right:1%;
+  }
+.guideVerticalTabbedPanelLayout .tab-navigators > li.active > a, .guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.active > a,.guideVerticalTabbedPanelLayout .tab-navigators > li.stepped.active > a,.guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.stepped.active > a, .guideVerticalTabbedPanelLayout .tab-navigators > li.active > a:hover, .guideVerticalTabbedPanelLayout .tab-navigators-vertical .tab-navigators-vertical li.active > a:hover  {
+    color:#fffafa;
+    background:#214980;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-top-width:0px;
+    border-right-width:0px;
+  }
+.guideContainer  {
+    margin-bottom:50px;
+    padding-left:0px;
+    padding-bottom:10px;
+    padding-right:0px;
+    margin-top:0px;
+    padding-top:60px;
+  }
+.guideAccordionLayout  {
+    padding-right:0px;
+    padding-left:0px;
+  }
+button.moveNext:not(.af-icon-button)  {
+  }
+.guidebutton.nextitemnav {
+width:100%;
+}
+.guidebutton.nextitemnav button {
+width:100%;
+}
+button.movePrev:not(.af-icon-button)  {
+  }
+.guidebutton.previtemnav {
+width:102%;
+}
+.guidebutton.previtemnav button {
+width:100%;
+}
+button.save:not(.af-icon-button)  {
+  }
+.guidebutton.saveGuideDraft {
+width:102%;
+}
+.guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators  {
+    color:#17b28d;
+  }
+.guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators > li > a  {
+    color:#17b28d;
+    background:#1a3a65;
+  }
+.guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators > li.active > a, .guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators-vertical .tab-navigators-vertical li.active > a,.guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators > li.stepped.active > a,.guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators-vertical .tab-navigators-vertical li.stepped.active > a, .guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators > li.active > a:hover, .guideVerticalTabbedPanelLayout .afTabTopPanelContent .tab-navigators-vertical .tab-navigators-vertical li.active > a:hover  {
+    color:#17b28d;
+    border-right-width:0px;
+    border-bottom-width:5px;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-color:#17b28d;
+    border-style:solid;
+    background:#1a3a65;
+  }
+button.fileattachmentlisting:not(.af-icon-button)  {
+  }
+.guidebutton.fileattachmentlisting {
+width:101.5%;
+}
+.guidebutton.fileattachmentlisting button {
+width:100%;
+}
+.afHeader  {
+    height:62px;
+    margin-bottom:20px;
+    padding-right:15px;
+    padding-left:15px;
+    background:#2D62AC;
+  }
+.guideimage .logoImage img  {
+    margin-top:8%;
+    width:180px;
+    height:32px;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    padding-left:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    padding-right:0px;
+  }
+.afFooter  {
+    margin-bottom:40px;
+  }
+}
+@media (max-width: 479px) {
+.guideToolbarNode  {
+  }
+}
+
