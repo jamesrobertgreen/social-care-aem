@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c4fc4afd-7d7e-4c86-b451-197134ad0c7a">
+    <jcr:content
+        dam:assetID="c4fc4afd-7d7e-4c86-b451-197134ad0c7a"
+        dam:assetState="processed"
+        dam:relativePath="formsanddocuments-themes/social-care/social-care-theme"
+        jcr:lastModified="{Date}2017-04-11T20:05:00.628+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/theme/render"
+        theme="1">
+        <metadata
+            dam:extracted="{Date}2017-04-11T20:05:00.307+01:00"
+            dam:sha1="7f91808b48819d77cb19d739171ca1810737a5e4"
+            dam:size="{Long}61258"
+            dc:format="application/octet-stream"
+            dc:modified="{Date}2016-02-11T16:36:28.001+05:30"
+            jcr:lastModified="{Date}2017-04-11T20:04:58.214+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            author="admin"
+            clientlibCategory="fdtheme.social-care-theme"
+            clientlibRef="/etc/clientlibs/fd/themes/social-care"
+            formRef="/content/dam/formsanddocuments/social-care/application"
+            title="Social Care Theme"/>
+    </jcr:content>
+</jcr:root>
