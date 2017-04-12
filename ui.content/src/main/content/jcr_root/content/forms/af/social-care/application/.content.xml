@@ -4,7 +4,7 @@
     <jcr:content
         cq:designPath="/etc/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2017-04-11T15:58:08.159+01:00"
+        cq:lastModified="{Date}2017-04-12T09:59:08.429+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templates/blankTemplate2"
         jcr:language="en"
@@ -12,7 +12,7 @@
         jcr:title="application"
         sling:resourceType="fd/af/components/page2/afStaticTemplatePage">
         <guideContainer
-            jcr:lastModified="{Date}2017-04-10T15:52:30.555+01:00"
+            jcr:lastModified="{Date}2017-04-12T09:59:08.422+01:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="fd/af/components/guideContainerWrapper"
@@ -22,7 +22,7 @@
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             name="guide1"
-            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/basicTheme"
+            themeRef="/content/dam/formsanddocuments-themes/social-care/social-care-theme"
             useExistingAF="false">
             <layout
                 jcr:primaryType="nt:unstructured"
@@ -77,7 +77,7 @@
                                     <guideswitch_copy
                                         jcr:created="{Date}2017-04-10T16:43:27.260+01:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:48:46.692+01:00"
+                                        jcr:lastModified="{Date}2017-04-12T09:58:28.756+01:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Do you currently receive informal care?"
@@ -399,7 +399,7 @@
                                 jcr:title="Formal Carer Details"
                                 sling:resourceType="fd/af/components/panel"
                                 guideNodeClass="guidePanel"
-                                name="formalCareDetauls"
+                                name="formalCareDetails"
                                 textIsRich="true">
                                 <layout
                                     jcr:primaryType="nt:unstructured"
@@ -409,41 +409,7 @@
                                     toolbarPosition="Bottom"/>
                                 <items
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <guidetextbox_copy
-                                        jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:55:09.398+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Carer's First Name"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        guideNodeClass="guideTextBox"
-                                        name="formalCarerFirstName"
-                                        textIsRich="[true,true]"/>
-                                    <guidetextbox
-                                        jcr:created="{Date}2017-04-10T16:54:40.036+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:55:26.366+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Carer's Last Name"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        guideNodeClass="guideTextBox"
-                                        name="formalCarerLastName"
-                                        textIsRich="[true,true]"/>
-                                    <guidetextbox_1758987769
-                                        jcr:created="{Date}2017-04-10T16:55:32.715+01:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2017-04-10T16:56:08.858+01:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Carer's Address"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        guideNodeClass="guideTextBox"
-                                        name="formalcarerAddress"
-                                        textIsRich="[true,true]"/>
-                                </items>
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"/>
                             </panel_1592655491>
                             <panel_1720300283
                                 jcr:created="{Date}2017-04-10T16:57:07.467+01:00"
